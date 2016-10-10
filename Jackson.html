@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<title>About Jackson</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Css Code.css">
+<link rel="stylesheet" href="Background.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<style>
+h1{color: navy;}
+html,body,h1,h2,h3,h4,h5,h6 {}
+.sidenav a,.sidenav h4{padding:12px;}
+.sidenav h4{color:navy;}
+</style>
+<body>
+
+<!-- Navigation Bar -->
+<div class="top">
+	<ul class="navbar theme-d2 left-align large">
+		<li class="hide-medium hide-large opennav right">
+			<a class="hover-white large theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+		</li>
+		<li class="hover-shadow"><!--Logo and link from click--><a href="file:///C:/Users/michael.roduin/Desktop/new/Eastside%20Catholic%20Coding%20Club.html" class="white hover-shadow" ><img src="Coding Club Image.png" alt="Coding Club" style="width:74px;height:40px;"></a></li>
+		<!--Other Links to Pages-->
+		<li class="hide-small"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy">AP Computer Science</a></li>
+		<li class="hide-small"><a href="Coding Tutorials.html" class="btn-floating hover-shadow hover-theme-white-navy">Tutorials</a></li>
+		<li class="hide-small dropdown-hover">
+			<a href="Coding Projects.html" title="Notifications" class="btn-floating hover-shadow hover-theme-white-navy">Projects <i class="fa fa-caret-down"></i></a>
+			<div class="dropdown-content white card-4">
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Coding Website</a>
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+			</div>
+		</li>
+		<li class="hide-small"><a href="About Us.html" class="btn-floating hover-shadow hover-theme-white-navy">About Us</a></li>
+		<li class="hide-small right"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy" title="Search"><i class="fa fa-search"></i></a></li>
+		<li class="margin-right hide-small right">Version: Alpha 1.1</li>
+	</ul>
+</div>
+
+<!-- Sidenav -->
+<nav class="sidenav collapse theme-l5 animate-left" style="z-index:3;width:250px;margin-top:67px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="right xlarge padding-large hover-black hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4><b>Menu</b></h4>
+  <a href="Michael.html" >Michael Roduin</a>
+  <a href="Sabrina.html" >Sabrina Austin</a>
+  <a href="Jackson.html" >Jackson Reding</a>
+  <a href="Blake.html" >Blake Haubeil</a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="overlay hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="main" style="margin-left:250px">
+
+  <div class="row padding-64">
+	<div class="third container">
+      <img src="Jackson.jpg" alt="Jackson Reding" style="width: 100%;border-radius: 50%;width: 100%; height: 433px;" class="circle hover-opacity">
+    </div>
+    <div class="twothird container">
+		<div class="row padding-64">
+		</div>
+		<h1 class="text-navy">About Jackson</h1>
+		<p>Jackson has always been interested in video games and computer programming. His father works on sequel server for microsoft and because of that he has been 
+		interested in the field a majority of his life. Last year was Jackson's sophmore year and he took AP Comp Sci in which he got an A in the class and a 4 on the ap exam. 
+		Jackson's hobbies include playing Ultimate Frisbee and playing video games with friends.</p>
+    </div>
+	<div class="twothird container">
+		<div class="row padding-64">
+		</div>
+		<p>He is also apparently the worst ADC in North America.</p>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="container theme-navy-white padding-32">
+      <h4>      </h4>
+    </div>
+
+    <div class="container white center">
+      <p>Powered by <a href="http://www.eastsidecatholic.org/page" target="_blank"><img src="Eastside_Catholic_School_Logo.png" alt="Eastside Catholic" style="width:82.5px;height:37.5px;"></a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidenav
+var mySidenav = document.getElementById("mySidenav");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidenav, and add overlay effect
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidenav.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

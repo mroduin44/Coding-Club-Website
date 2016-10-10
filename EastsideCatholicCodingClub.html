@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+</head>
+<title>Eastside Catholic Coding Club</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Modified W3CSS Style sheets for CSS Library-->
+<link rel="stylesheet" href="CSS code.css">
+<link rel="stylesheet" href="Background.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<body id="myPage">
+
+<!-- Side Navigation on click -->
+<nav class="sidenav white card-2 animate-left" style="display:none;z-index:2" id="mySidenav">
+	<a href="javascript:void(0)" onclick="close()" class="closenav xxxlarge text-orange">Close
+		<i class="fa fa-remove"></i>
+	</a>
+	<!--Side Navigation links-->
+	<a href="Coding Tutorials.html">Tutorials</a>
+	<a href="Coding Projects.html">Projects</a>
+	<a href="About Us.html">About Us</a>
+	<a href="AP CS.html">AP Computer Science</a>
+</nav>
+
+<!-- Navigation Bar -->
+<div class="top">
+	<ul class="navbar theme-d2 left-align large">
+		<li class="hide-medium hide-large opennav right">
+			<a class="hover-white large theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+		</li>
+		<li class="hover-shadow"><!--Logo and link from click--><a href="file:///C:/Users/michael.roduin/Desktop/new/Eastside%20Catholic%20Coding%20Club.html" class="white hover-shadow"><img src="Coding Club Image.png" alt="Coding Club" style="width:74px;height:40px;"></a></li>
+		<!--Other Links to Pages-->
+		<li class="hide-small"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy">AP Computer Science</a></li>
+		<li class="hide-small"><a href="Coding Tutorials.html" class="btn-floating hover-shadow hover-theme-white-navy">Tutorials</a></li>
+		<li class="hide-small dropdown-hover">
+			<a href="Coding Projects.html" title="Notifications" class="btn-floating hover-shadow hover-theme-white-navy">Projects <i class="fa fa-caret-down"></i></a>
+			<div class="dropdown-content white card-4">
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Coding Website</a>
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+			</div>
+		</li>
+		<li class="hide-small"><a href="About Us.html" class="btn-floating hover-shadow hover-theme-white-navy">About Us</a></li>
+		<li class="hide-small right"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy" title="Search"><i class="fa fa-search"></i></a></li>
+		<li class="margin-right hide-small right">Version: Alpha 1.1</li>
+	</ul>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="hide hide-large hide-medium top" style="margin-top:43px;">
+	<ul class="navbar left-align large theme">
+			<li><a href="file:///C:/Users/michael.roduin/Desktop/new/Eastside%20Catholic%20Coding%20Club.html"><img src="Coding Club Image.png"></a></li>
+		<li><a href="Coding Tutorials.html">Tutorials</a></li>
+		<li class="dropdown-hover">
+			<a href="Coding Projects.html" title="Notifications">Projects<i class="fa fa-caret-down hover-theme-white-navy"></i></a>
+			<div class="dropdown-content theme-navy-white hover-theme-white-navy card-4">
+				<a href="#">Link</a>
+				<a href="#">Link</a>
+				<a href="#">Link</a>
+			</div>
+		</li>
+		<li><a href="About Us.html">About Us</a></li>
+		<li><a href="AP CS.html">AP Computer Science</a></li>
+	</ul>
+</div>
+
+<div class="display-container animate-opacity">
+	<img class="testimg" src="Eastside.jpg" alt="Our School" style="width:100%;min-height:350px;max-height:600px;">
+	<div class="container display-bottomleft margin-bottom">
+		<button onclick="document.getElementById('id01').style.display='block'" class="btn xlarge theme-navy-white" title="Go To My EC">My EC</button>
+	</div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="modal">
+    <div class="modal-content card-8 animate-top">
+		<header class="container theme-navy-white">
+			<span onclick="document.getElementById('id01').style.display='none'" class="closebtn"><i class="fa fa-remove"></i></span>
+			<h4>Models are cool</h4>
+			<h5>we know <i class="fa fa-smile-o"></i></h5>
+		</header>
+		<div class="container">
+			<p>Ok, these might be my favorite..</p>
+			<p>Go to <a class="btn theme-navy-white" href="http://www.eastsidecatholic.org/page" target="_blank">My EC</a> to learn about the school we go to!</p>
+		</div>
+		<footer class="container theme-navy-white">
+			<p>-Michael</p>
+		</footer>
+    </div>
+</div>
+
+<!-- Container -->
+<div class="container padding-64 center">
+	<h2>OUR TEAM</h2>
+	<p>Meet the team:</p>
+
+	<div class="row"><br>
+
+		<div class="quarter">
+			<a href="Blake.html"><img src="Blake.jpg" alt="Blake" style="width:75%;border-radius:50%;height: 325px;" class="circle hover-shadow hover-opacity"><a/>
+			<h3>Blake Haubeil</h3>
+			<p>Second in Charge</p>
+		</div>
+
+		<div class="quarter">
+			<a href="Sabrina.html"><img src="Sabrina.jpg" alt="Sabrina Austin" style="width: 100%;border-radius: 50%;width: 75%;height: 325px;" class="circle hover-shadow hover-opacity"><a/>
+			<h3>Sabrina Austin</h3>
+			<p>Organizer</p>
+		</div>
+	
+		<div class="quarter">
+			<a href="Michael.html"><img src="Michael.jpg" alt="Michael Roduin" style="width: 100%;border-radius: 50%;width: 75%; height: 325px;" class="circle hover-shadow hover-opacity"><a/>
+			<h3>Michael Roduin</h3>
+			<p>Coding Club Lead</p>
+		</div>
+	
+		<div class="quarter">
+			<a href="Jackson.html"><img src="Jackson.jpg" alt="Jackson Reding" style="width: 100%;border-radius: 50%;width: 75%; height: 325px;" class="circle hover-shadow hover-opacity"><a/>
+			<h3>Jackson Reding</h3>
+			<p>That Other Guy</p>
+		</div>
+	
+	</div>
+</div>
+
+<!-- Row -->
+<div class="row-padding padding-64 theme-gray">
+
+	<div class="quarter">
+		<h2>Project Listings</h2>
+		<p>Yay, some cool info goes here</p>
+	</div>
+
+	<div class="quarter">
+		<div class="card-2 white">
+			<img src="img_fjords.jpg" alt="add Picture" style="width:100%">
+			<div class="container">
+				<h3>Project Number</h3>
+				<h4>Project name</h4>
+				<p>Insert</p>
+				<p>some</p>
+				<p>info</p>
+				<p>here</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="quarter">
+		<div class="card-2 white">
+			<img src="img_lights.jpg" alt="add Picture" style="width:100%">
+			<div class="container">
+				<h3>Project Number</h3>
+				<h4>Project Name</h4>
+				<p>Insert</p>
+				<p>some</p>
+				<p>info</p>
+				<p>here</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="quarter">
+		<div class="card-2 white">
+			<img src="img_mountains.jpg" alt="add Picture" style="width:100%">
+			<div class="container">
+				<h3>Project Number</h3>
+				<h4>Project Name</h4>
+				<p>Insert</p>
+				<p>some</p>
+				<p>info</p>
+				<p>here</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Container -->
+<div class="container" style="position:relative">
+	<a href="Coding Projects.html" class="btn-floating-large orange" style="position:absolute;top:-28px;right:24px;z-index:0;">
+	<i class="fa fa-plus"></i></a>
+</div>
+
+<div class="container padding-64 theme-l5">
+</div>
+
+<!-- Footer -->
+<footer class="container padding-32 theme-navy-white center">
+	<h4>Follow Us</h4>
+	<a class="btn-floating-small orange hover-shadow" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+	<a class="btn-floating-small orange hover-shadow" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+	<a class="btn-floating-small orange hover-shadow" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+	<p>Hosted by <a href="http://www.eastsidecatholic.org/page" target="_blank"><img src="Eastside_Catholic_School_Logo.png" alt="Eastside Catholic" style="width:82.5px;height:37.5px;"></a></p>
+
+	<div style="position:relative;bottom:100px;z-index:1;" class="tooltip right">
+		<span class="text padding theme-navy-white hide-small">Go To Top</span>
+		<a class="btn theme" href="#myPage"><span class="xlarge">
+		<i class="fa fa-chevron-circle-up"></i></span></a>
+	</div>
+</footer>
+
+<!-- Script For Side Navigation -->
+<script>
+	function open() {
+		var x = document.getElementById("mySidenav");
+		x.style.width = "300px";
+		x.style.textAlign = "center";
+		x.style.fontSize = "40px";
+		x.style.paddingTop = "10%";
+		x.style.display = "block";
+	}
+	function close() {
+		document.getElementById("mySidenav").style.display = "none";
+	}
+
+	// Used to toggle the menu on smaller screens when clicking on the menu button
+	function openNav() {
+		var x = document.getElementById("navDemo");
+		if (x.className.indexOf("show") == -1) {
+			x.className += " show";
+		} else {
+			x.className = x.className.replace(" show", "");
+		}
+	}
+</script>
+
+</body>
+</html>
+

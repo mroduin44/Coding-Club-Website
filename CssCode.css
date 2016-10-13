@@ -873,18 +873,6 @@ input[type=radio].radio:disabled+.validate {
 .bottom {
     bottom: 0
 }
-.overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2
-}
 .left {
     float: left!important
 }
@@ -981,43 +969,6 @@ input[type=radio].radio:disabled+.validate {
 }
 .circle {
     border-radius: 50%!important
-}
-.round-small {
-    border-radius: 2px!important
-}
-.round,
-.round-medium {
-    border-radius: 4px!important
-}
-.round-large {
-    border-radius: 8px!important
-}
-.round-xlarge {
-    border-radius: 16px!important
-}
-.round-xxlarge {
-    border-radius: 32px!important
-}
-.round-jumbo {
-    border-radius: 64px!important
-}
-.border-0 {
-    border: 0!important
-}
-.border {
-    border: 1px solid #ccc!important
-}
-.border-top {
-    border-top: 1px solid #ccc!important
-}
-.border-bottom {
-    border-bottom: 1px solid #ccc!important
-}
-.border-left {
-    border-left: 1px solid #ccc!important
-}
-.border-right {
-    border-right: 1px solid #ccc!important
 }
 .margin {
     margin: 16px!important
@@ -1140,10 +1091,6 @@ input[type=radio].radio:disabled+.validate {
 .row-padding>.col {
     padding: 0 8px
 }
-.spin {
-    animation: spin 2s infinite linear;
-    -webkit-animation: spin 2s infinite linear
-}
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -1171,10 +1118,6 @@ input[type=radio].radio:disabled+.validate {
     padding: 0.01em 16px;
     margin-top: 16px!important;
     margin-bottom: 16px!important
-}
-.example {
-    background-color: #f1f1f1;
-    padding: 0.01em 16px
 }
 .code,
 .codespan {
@@ -1406,9 +1349,6 @@ input[type=radio].radio:disabled+.validate {
 .text-shadow {
     text-shadow: 1px 1px 0 #444
 }
-.text-shadow-white {
-    text-shadow: 1px 1px 0 #ddd
-}
 /* Start of colors */
 
 .orange,
@@ -1430,21 +1370,6 @@ input[type=radio].radio:disabled+.validate {
     color: #fff!important;
     background-color: #000!important
 }
-.grey,
-.hover-grey:hover {
-    color: #000!important;
-    background-color: #9e9e9e!important
-}
-.light-grey,
-.hover-light-grey:hover {
-    color: #000!important;
-    background-color: #f1f1f1!important
-}
-.dark-grey,
-.hover-dark-grey:hover {
-    color: #fff!important;
-    background-color: #616161!important
-}
 .navy,
 .hover-navy:hover {
     color: #000!important;
@@ -1454,14 +1379,6 @@ input[type=radio].radio:disabled+.validate {
 .hover-text-navy:hover {
     color: #000080!important
 }
-.text-orange,
-.hover-text-orange:hover {
-    color: #ff9800!important
-}
-.text-deep-orange,
-.hover-text-deep-orange:hover {
-    color: #ff5722!important
-}
 .text-white,
 .hover-text-white:hover {
     color: #fff!important
@@ -1469,46 +1386,6 @@ input[type=radio].radio:disabled+.validate {
 .text-black,
 .hover-text-black:hover {
     color: #000!important
-}
-.text-grey,
-.hover-text-grey:hover {
-    color: #757575!important
-}
-.text-light-grey,
-.hover-text-light-grey:hover {
-    color: #f1f1f1!important
-}
-.text-dark-grey,
-.hover-text-dark-grey:hover {
-    color: #3a3a3a!important
-}
-.border-navy,
-.hover-border-navy:hover {
-    border-color: #000080!important
-}
-.border-orange,
-.hover-border-orange:hover {
-    border-color: #ff9800!important
-}
-.border-white,
-.hover-border-white:hover {
-    border-color: #fff!important
-}
-.border-black,
-.hover-border-black:hover {
-    border-color: #000!important
-}
-.border-grey,
-.hover-border-grey:hover {
-    border-color: #9e9e9e!important
-}
-.border-light-grey,
-.hover-border-light-grey:hover {
-    border-color: #f1f1f1!important
-}
-.border-dark-grey,
-.hover-border-dark-grey:hover {
-    border-color: #616161!important
 }
 .theme-navy-white {
     color: #fff!important;

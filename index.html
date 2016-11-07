@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="UTF-8">
-</head>
-<title>Eastside Catholic Coding Club</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Modified W3CSS Style sheets for CSS Library-->
-<link rel="stylesheet" href="css/CssCode.css">
-<link rel="stylesheet" href="Background.css">
-<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<body id="myPage">
+	<head><meta charset="UTF-8"></head>
+	<title>Eastside Catholic Coding Club</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Modified W3CSS Style sheets for CSS Library-->
+	<link rel="stylesheet" href="css/CssCode.css">
+	<link rel="stylesheet" href="Background.css">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<body id="myPage">
 
-<!-- Side Navigation on click -->
-<nav class="sidenav white card-2 animate-left" style="display:none;z-index:2" id="mySidenav">
-	<a href="javascript:void(0)" onclick="close()" class="closenav xxxlarge text-orange">Close
-		<i class="fa fa-remove"></i>
-	</a>
-	<!--Side Navigation links-->
-	<a href="CodingTutorials.html">Tutorials</a>
-	<a href="CodingProjects.html">Projects</a>
-	<a href="AboutUs.html">About Us</a>
-	<a href="APCS.html">AP Computer Science</a>
-</nav>
+		<!-- Side Navigation on click -->
+		<nav class="sidenav white card-2 animate-left" style="display:none;z-index:2" id="mySidenav">
+			<a href="javascript:void(0)" onclick="close()" class="closenav xxxlarge text-orange">Close
+				<i class="fa fa-remove"></i>
+			</a>
+			<!--Side Navigation links-->
+			<a href="CodingTutorials.html">Tutorials</a>
+			<a href="CodingProjects.html">Projects</a>
+			<a href="AboutUs.html">About Us</a>
+			<a href="APCS.html">AP Computer Science</a>
+		</nav>
 
-<!-- Navigation Bar -->
-<div class="top">
-	<ul class="navbar theme-d2 left-align large">
-		<li class="hide-medium hide-large opennav right">
-			<a class="hover-white large theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-		</li>
-		<li class="hover-shadow"><!--Logo and link from click--><a href="index.html" class="white hover-shadow"><img src="CodingClubImage.png" alt="Coding Club" style="width:74px;height:40px;"></a></li>
-		<!--Other Links to Pages-->
-		<li class="hide-small"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy">AP Computer Science</a></li>
-		<li class="hide-small"><a href="CodingTutorials.html" class="btn-floating hover-shadow hover-theme-white-navy">Tutorials</a></li>
-		<li class="hide-small dropdown-hover">
-			<a href="CodingProjects.html" title="Notifications" class="btn-floating hover-shadow hover-theme-white-navy">Projects <i class="fa fa-caret-down"></i></a>
-			<div class="dropdown-content white card-4">
-				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Coding Website</a>
-				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
-				<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+		<!-- Navigation Bar -->
+		<div class="top">
+			<ul class="navbar theme-d2 left-align large">
+				<li class="hide-medium hide-large opennav right">
+					<a class="hover-white large theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+				</li>
+				<li class="hover-shadow"><!--Logo and link from click--><a href="index.html" class="white hover-shadow"><img src="CodingClubImage.png" alt="Coding Club" style="width:74px;height:40px;"></a></li>
+				<!--Other Links to Pages-->
+				<li class="hide-small"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy">AP Computer Science</a></li>
+				<li class="hide-small"><a href="CodingTutorials.html" class="btn-floating hover-shadow hover-theme-white-navy">Tutorials</a></li>
+				<li class="hide-small dropdown-hover">
+					<a href="CodingProjects.html" title="Notifications" class="btn-floating hover-shadow hover-theme-white-navy">Projects <i class="fa fa-caret-down"></i></a>
+					<div class="dropdown-content white card-4">
+						<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Coding Website</a>
+						<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+						<a href="#" class="theme-d2 hover-shadow hover-theme-white-navy">Link</a>
+					</div>
+				</li>
+				<li class="hide-small"><a href="AboutUs.html" class="btn-floating hover-shadow hover-theme-white-navy">About Us</a></li>
+				<li class="hide-small right"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy" title="Search"><i class="fa fa-search"></i></a></li>
+				<li class="margin-right hide-small right">Version: Alpha 1.1</li>
+			</ul>
+		</div>
+
+		<!-- Navbar on small screens -->
+		<div id="navDemo" class="hide hide-large hide-medium top" style="margin-top:43px;">
+			<ul class="navbar left-align large theme">
+				<li><a href="#"><img src="CodingClubImage.png"></a></li>
+				<li><a href="CodingTutorials.html">Tutorials</a></li>
+				<li class="dropdown-hover">
+					<a href="CodingProjects.html" title="Notifications">Projects<i class="fa fa-caret-down hover-theme-white-navy"></i></a>
+					<div class="dropdown-content theme-navy-white hover-theme-white-navy card-4">
+						<a href="#">Link</a>
+						<a href="#">Link</a>
+						<a href="#">Link</a>
+					</div>
+				</li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><a href="APCS.html">AP Computer Science</a></li>
+			</ul>
+		</div>
+
+		<div class="display-container animate-opacity">
+			<img class="testimg" src="Eastside.jpg" alt="Our School" style="width:100%;min-height:350px;max-height:600px;">
+			<div class="container display-bottomleft margin-bottom">
+				<button onclick="document.getElementById('id01').style.display='block'" class="btn xlarge theme-navy-white" title="Go To My EC">My EC</button>
 			</div>
-		</li>
-		<li class="hide-small"><a href="AboutUs.html" class="btn-floating hover-shadow hover-theme-white-navy">About Us</a></li>
-		<li class="hide-small right"><a href="#" class="btn-floating hover-shadow hover-theme-white-navy" title="Search"><i class="fa fa-search"></i></a></li>
-		<li class="margin-right hide-small right">Version: Alpha 1.1</li>
-	</ul>
-</div>
-
-<!-- Navbar on small screens -->
-<div id="navDemo" class="hide hide-large hide-medium top" style="margin-top:43px;">
-	<ul class="navbar left-align large theme">
-			<li><a href="#"><img src="CodingClubImage.png"></a></li>
-		<li><a href="CodingTutorials.html">Tutorials</a></li>
-		<li class="dropdown-hover">
-			<a href="CodingProjects.html" title="Notifications">Projects<i class="fa fa-caret-down hover-theme-white-navy"></i></a>
-			<div class="dropdown-content theme-navy-white hover-theme-white-navy card-4">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-			</div>
-		</li>
-		<li><a href="AboutUs.html">About Us</a></li>
-		<li><a href="APCS.html">AP Computer Science</a></li>
-	</ul>
-</div>
-
-<div class="display-container animate-opacity">
-	<img class="testimg" src="Eastside.jpg" alt="Our School" style="width:100%;min-height:350px;max-height:600px;">
-	<div class="container display-bottomleft margin-bottom">
-		<button onclick="document.getElementById('id01').style.display='block'" class="btn xlarge theme-navy-white" title="Go To My EC">My EC</button>
-	</div>
-</div>
+		</div>
 
 <!-- Modal -->
 <div id="id01" class="modal">

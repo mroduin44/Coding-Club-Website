@@ -1122,14 +1122,16 @@ input[type=radio].radio:disabled+.validate {
 .code,
 .codespan {
     font-family: Consolas, "courier new";
-    font-size: 16px
+    font-size: 16px;
+	color: white;
 }
 .code {
+	border-radius: 0px 25px 25px 0px;
     line-height: 1.4;
     width: auto;
-    background-color: #fff;
+    background-color: #7f7f7f;
     padding: 8px 12px;
-    border-left: 4px solid #009688;
+    border-left: 4px solid #000080;
     word-wrap: break-word
 }
 .codespan {
@@ -1394,4 +1396,10 @@ input[type=radio].radio:disabled+.validate {
 .theme-gray {
     color: #fff!important;
     background-color: #333333!important
+}
+.tab {
+	padding-left: 1.3em;
+}
+.tab2 {
+	padding-left: 2.6em;
 }

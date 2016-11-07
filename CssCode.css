@@ -1126,13 +1126,19 @@ input[type=radio].radio:disabled+.validate {
 	color: white;
 }
 .code {
-	border-radius: 0px 25px 25px 0px;
     line-height: 1.4;
     width: auto;
     background-color: #7f7f7f;
     padding: 8px 12px;
-    border-left: 4px solid #000080;
     word-wrap: break-word
+}
+.codeLeft{
+	border-left: 4px solid #000080;
+	border-radius: 0px 25px 25px 0px;
+}
+.codeRight{
+	border-right: 4px solid #000080;
+	border-radius: 25px 0px 0px 25px;
 }
 .codespan {
     color: crimson;
